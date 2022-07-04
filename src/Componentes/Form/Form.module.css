@@ -1,0 +1,73 @@
+.containerFather{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+.containter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    padding-top: 10px;
+    font-size: 3vh;
+    cursor: pointer;
+    border: 4px solid rgb(64, 60, 60);
+    border-radius: 10px;
+}
+.divFormLoc{
+    display: flex;
+    justify-content: center;
+}
+.formLoc{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 100%;
+    padding-top: 0vh;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+@media (min-width:500px) and (max-width:900px){
+    .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+        padding-top: 10px;
+        font-size: 2vh;
+        cursor: pointer;
+        border: 4px solid rgb(64, 60, 60);
+        border-radius: 10px;
+    }
+}
+@media (min-width:280px) and (max-width:499px){
+    .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 60%;
+        padding-top: 10px;
+        font-size: 2vh;
+        cursor: pointer;
+        border: 4px solid rgb(64, 60, 60);
+        border-radius: 10px;
+    }
+}

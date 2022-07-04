@@ -1,0 +1,457 @@
+.padre{
+  display: flex;
+  justify-content: center;
+  
+}
+.container{
+    display: flex;
+    border:8px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    box-shadow: rgba(50,50,93,0.25) 0px 30px 60px -12px inset ,rgba(0 , 0, 0, 0.3) 0px 18px 36px -18px inset;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(
+    -30deg,
+    #252f74,
+    #367084,
+    #3499cc
+  );
+  animation: gradient 9s ease infinite;
+  width:50%;
+  height: 80vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.dateTime{
+  display: flex;
+  justify-content: center;
+  font-size: 4vh;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  width:100%;
+
+}
+.firstSun{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  font-size: 3vh;
+font-family: cursive;
+text-decoration: underline;
+}
+.secondSun{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+height: 100%;
+}
+.iconAndDescription{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+
+}
+.descripcion{
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+  font-weight: bold;
+  font-family: cursive;
+
+}
+.img{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.temperature{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size:2.3vh;
+}
+.adds{
+  text-align:center;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: rgb(45, 41, 41);
+  font-family: cursive;
+}
+.add{
+  font-size: 1.8vh;
+  font-weight: bold;
+  margin-top: 2vh;
+}
+.icono{
+  margin-top: 2.4vh;
+
+}
+.windSpeed{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.9vh;
+}
+.prueba{
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: cursive;
+}
+.colOne,.colTwo,.colThre{
+  height: 100%;
+  width: 20%;
+  opacity: .4;
+  background-color:white;
+  color: black;
+  border: 10px solid white;
+  border-radius: 10px;
+}
+@media (min-width:500px) and (max-width:900px) {
+ 
+  .container{
+    display: flex;
+    border:8px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    box-shadow: rgba(50,50,93,0.25) 0px 30px 60px -12px inset ,rgba(0 , 0, 0, 0.3) 0px 18px 36px -18px inset;
+    flex-direction: column;
+    justify-content: space-between;
+    width:70%;
+    height: 70vh;
+    margin: 0px;
+    padding: 0px;
+}
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    height: 50%;
+    width:100%;
+  
+  }
+  .dateTime{
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+  }
+  .firstSun{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 100%;
+  font-family: cursive;
+  margin-right: 0%;
+  text-decoration: underline;
+  }
+  .secondSun{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    }
+    .temperature{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size:80%;
+    }
+    .descripcion{
+      display: flex;
+      justify-content: center;
+      font-size: 100%;
+      font-weight: bold;
+      font-family: cursive;
+    
+    }
+    .img{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    .adds{
+      text-align:center;
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: rgb(45, 41, 41);
+      font-family: cursive;
+    }
+    .add{
+      font-size: 100%;
+      font-weight: bold;
+      margin-top: 0vh;
+    }
+    .icono{
+      margin-top: 0vh;
+    }
+    .windSpeed{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-size: 100%;
+    }
+    .prueba{
+      display: flex;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-family: cursive;
+    }
+    .colOne,.colTwo,.colThre{
+      height: 100%;
+      width: 30%;
+      opacity: .4;
+      background-color:white;
+      color: black;
+      border: 0px solid white;
+      border-radius: 10px;
+    }
+}
+
+@media (min-width:250px) and (max-width:499px) {
+ 
+  .container{
+    display: flex;
+    border:8px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    box-shadow: rgba(50,50,93,0.25) 0px 30px 60px -12px inset ,rgba(0 , 0, 0, 0.3) 0px 18px 36px -18px inset;
+    flex-direction: column;
+    justify-content: space-between;
+    width:80%;
+    height: 80vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    height: 50%;
+  
+  }
+  .dateTime{
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    margin: 0px;
+  }
+  .firstSun{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 100%;
+  font-family: cursive;
+  margin-right: 0%;
+  text-decoration: underline;
+  }
+  .secondSun{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    }
+    .temperature{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size:70%;
+    }
+    .descripcion{
+      display: flex;
+      justify-content: center;
+      font-size: 100%;
+      font-weight: bold;
+      font-family: cursive;
+    
+    }
+    .img{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    .adds{
+      text-align:center;
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: rgb(45, 41, 41);
+      font-family: cursive;
+    }
+    .add{
+      font-size: 80%;
+      font-weight: bold;
+      margin-top: 0vh;
+    }
+    .icono{
+      margin-top: 0vh;
+    }
+    .windSpeed{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-size: 100%;
+    }
+    .prueba{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-family: cursive;
+    }
+    .colOne,.colTwo,.colThre{
+      display: inline-flex;
+      justify-content: space-around;
+      height: 30%;
+      width: 100%;
+      opacity: .4;
+      background-color:white;
+      color: black;
+      border: 0px solid white;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+}
+@media (min-width:150px) and (max-width:249px) {
+  .padre{
+   width: 100%;
+    
+  }
+  .container{
+    display: flex;
+    border:8px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    box-shadow: rgba(50,50,93,0.25) 0px 30px 60px -12px inset ,rgba(0 , 0, 0, 0.3) 0px 18px 36px -18px inset;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    height: 100%;
+  
+  }
+  .dateTime{
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    margin: 0px;
+  }
+  .firstSun{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 60%;
+  font-family: cursive;
+  margin-right: 0%;
+  text-decoration: underline;
+  }
+  .secondSun{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    }
+    .temperature{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size:50%;
+    }
+    .descripcion{
+      display: flex;
+      justify-content: center;
+      font-size: 100%;
+      font-weight: bold;
+      font-family: cursive;
+    
+    }
+    .img{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    .adds{
+      text-align:center;
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: rgb(45, 41, 41);
+      font-family: cursive;
+    }
+    .add{
+      font-size: 60%;
+      font-weight: bold;
+      margin-top: 0vh;
+    }
+    .icono{
+      margin-top: 0vh;
+    }
+    .windSpeed{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-size: 100%;
+    }
+    .prueba{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-family: cursive;
+      font-size: 80%;
+      width: 100%;
+
+    }
+    .colOne,.colTwo,.colThre{
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      opacity: .4;
+      background-color:white;
+      color: black;
+      border: 0px solid white;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+}
